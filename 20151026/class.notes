@@ -1,0 +1,8 @@
+skipping end of lecture 11, for next week
+
+Lecture12	-	threads
+for class extend Thread
+or
+for class implement Runnable //interface, has one method, run
+
+

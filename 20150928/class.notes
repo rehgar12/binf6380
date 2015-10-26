@@ -1,0 +1,15 @@
+==
+for Objects, checks to see if they share the same memory address, not the value
+
+.equals
+for Objects, tests whether the values of them are the same
+
+
+difference between String and stringbuffer
+	strings are immutable in java, so they must be copied over
+		String s = "";
+		s=s+chooseOne();
+		return s;
+	has to copy before adding for each iteration
+
+

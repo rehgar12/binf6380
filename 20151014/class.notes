@@ -1,0 +1,43 @@
+Lecture8
+LinkedHashSet	-	automatically puts set in order the items were added
+Treeset			-	automatically puts set in natural order
+			natural order is defined in java by the .compareTo method
+
+
+Lecture9
+HashMap<K, V>	can ONLY be objects
+key 	- 	must have your .equals and hashcode set correctly
+
+SLIDE-5
+print map key-value pairs
+
+for( String key : numberMap.keySet() )
+{
+	System.out.println( key + "=" + numberMap.get(key) );
+}
+
+LinkedHashMap	-	keeps order that you put things into the map
+	
+TreeMap			-	orders keys by natural order
+			puts are linear time
+
+SLIDE-9  	counting things with maps
+
+SLIDE-14	adding .equals and hashcode override
+
+@Override .equals
+public boolean equals(Object o)
+{
+	patient p = (Patient)o;		//cast the object 'o' to a patient
+	return p.patientID.equals(this.patientID);
+}
+
+@Override hashcode
+public int hashCode()
+{
+	return patientID.hashCode();
+}
+
+w
+
+

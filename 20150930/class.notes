@@ -1,0 +1,39 @@
+Lecture8 continued
+
+Lists have order in them
+	can contain duplicate items
+
+Sets have no order
+	may NOT contain duplicate items
+		set1.retainAll(set2);
+			//for set1, retain only the items that are also in set2
+			//returns the intersection of set1 and set2
+
+
+*********
+	hashCode()
+		returns a hash code value for the object
+CONTRACT
+1	same obj returns same hashcode
+2	if 2 objs are equal, calling hashcode MUST return the same hashcode
+3	if not equal, may return same hash, but may degrade performance
+**********
+
+
+
+Collection is an interface (collections API) 
+	is a superclass of List and Set
+
+
+
+
+Slide 46
+2 ways to iterate through a set
+
+
+IGNORE LINKEDHASHSET AND TREESET FOR MIDTERM
+
+
+
+
+

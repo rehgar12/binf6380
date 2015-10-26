@@ -1,0 +1,38 @@
+Lecture6
+	Sorting arrays and lists
+	Comparable interface
+		has a single method called 'compareTo(Object o)'
+			returns:
+				if less than:	-1
+				greater than:	1
+				equal to:		0
+		this method is what allows java to sort arrays of strings
+
+	Slide 35
+		an 'in-line' class instantiation
+		an anonymous interclass, because the class name is never defined
+
+Lecture7
+	Inheritance
+		you IMPLEMENT an interface
+			a class can implement multiple interfaces
+		you EXTEND an inheritance (abstract superclass)
+			a class can extend only ONE class
+				you get the methods from the Object class, and Class class automatically
+			Inheritance isA
+			Composition hasA
+
+	Object class methods
+		must know equals(), hashCode(), and toString()
+
+	Override, must exactly match the name of the method you want to override
+		toString()
+
+		@Override - instead of getting the name of class@hexcode, print "whatever 'area'"
+		public String toString()
+		{
+			return "whatever" + getArea();
+		}
+
+		super.toString()
+			

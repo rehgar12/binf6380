@@ -1,0 +1,33 @@
+Lecture5 Slide 38
+	Arrays - are a fixed size, MUST be specified at beginning
+		s.charAt(3)
+		s.substring(3,4)
+					(inclusive,exclusive)
+
+		sorting, O(N*log2(N))
+
+		unsorted array, is 12 in it? 	O=N
+		sorted array, is 12 in it?		O=log2N
+			-split into 2 groups, check, repeat
+	
+	Lists - good if you don't know how long it needs to be
+		ex.
+		List<String> list = new ArrayList<String>();
+		//		List is an interface, and ArrayList is an implementation of that interface		
+		list.add("whatever string you want");
+		list.add("another string");
+
+		for(String s : list)
+			System.out.println(s);
+		
+		System.out.println(list.size());
+		list.remove(0);
+		System.out.println(list.size());
+		.xe
+
+		methods for lists Slide 46
+
+
+
+		
+

@@ -1,0 +1,30 @@
+Lecture10
+Anonymous ActionListeners	-	Slide 26
+
+inheritance goes up
+composition goes down
+
+
+ActionListener 	-	an interface with a single method, called actionPerformed
+				-	so when a user clicks a button, the method is called
+				-	(ActionEvent e)
+	ActionEvent		-	is created and passed to actionPerformed
+					-	tells the listener
+
+
+//a helper method to update the display
+private void updateTextField()
+{
+	aTextField.setText("some text");
+	validate(); 	-	is a refresh, check to make sure everything is up to date
+}
+
+
+Lecture11
+
+Menues
+slide6	-	write state out
+slide13	-	write state in	
+
+
+
